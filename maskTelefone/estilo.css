@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: #457b9d;
+  color: #fff;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.areaNav {
+  display: flex;
+  padding: 10px;
+}
+
+.listMenu {
+  display: flex;
+  list-style: none;
+  margin-left: 10%;
+  margin-top: 0.7%;
+  font-size: 14pt;
+}
+
+.listMenu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #1d3557;
+  border-radius: 5px;
+}
+
+.listMenu a:hover {
+  background: #457b9d;
+  border: 2px solid #1d3557;
+  transition: .2s;
+}
+
+.listMenu a:active {
+  background: #1d3557;
+  border: 2px solid #457b9d;
+  transition: .2s;
+}
+
+.menuItens {
+  margin-right: 20%;
+}
+
+fieldset {
+  margin: auto;
+  width: 80%;
+  border: 2px solid #457b9d;
+  border-radius: 4px;
+}
+
+legend {
+  text-align: center;
+  color: #1d3557;
+}
+
+.areaTel label {
+  font-size: 14pt;
+  margin-top: 3px;
+  color: #1d3557;
+}
+
+.areaTel {
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#campoTel {
+  margin-left: 10px;
+  width: 20%;
+  height: 30px;
+  font-size: 14pt;
+  border: 1px solid #457b9d;
+  border-radius: 3px;
+  outline: none;
+  padding: 5px;
+  color: #1d3557;
+}
