@@ -26,3 +26,4 @@ campo.addEventListener('keypress', (e) => {
     campo.value += '-'
   }
 })
+
